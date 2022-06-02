@@ -1,5 +1,6 @@
 //to display names of months by taking numeric values from the user
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
     int a;
@@ -32,5 +33,7 @@ int main()
         case 12: printf("Month is :  December");
                 break;
         default : printf("invalid number");
+        
     }
+       getch();
 }
